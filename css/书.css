@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 100px;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background-color: #011957;
+}
+
+#img_ul {
+  list-style: none;
+  font-size: .2rem;
+  margin-left: .1rem;
+}
+
+#img_ul li {
+  width: 25%;
+  float: left;
+  margin-bottom: .15rem;
+}
+
+#img_ul li a {
+  display: block;
+  background-color: #6745B5;
+  margin-right: .1rem;
+  border-radius: .09rem;
+  color: white;
+  padding: .05rem;
+  overflow: auto;
+  box-shadow: 0 .05rem 0rem #3E13A0, 0 .07rem .07rem #325094;
+}
+
+#img_ul li a span:last-child {
+  display: block;
+  float: right;
+  background-color: black;
+  text-align: center;
+  padding: 0rem .05rem;
+  border-radius: .09rem;
+}
+
+#shu_ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+#shu_ul li {
+  width: 48%;
+  font-size: 0.3rem;
+  background-color: #fff;
+  margin-bottom: 0.2rem;
+  border-radius: 0.09rem;
+}
+
+#shu_ul li a {
+  display: block;
+  color: black;
+}
+
+#shu_ul li a img {
+  width: 100%;
+  border-radius: 0.09rem;
+}
+
+#shu_ul li a p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+#shu_ul li a .f-one {
+  float: left;
+  margin-left: 0.1rem;
+}
+
+#shu_ul li a .f-one span:nth-child(1) {
+  color: red;
+}
+
+#shu_ul li a .f-two {
+  float: right;
+  background-color: red;
+  color: #fff;
+  border-radius: .09rem;
+  margin-right: .05rem;
+  margin-bottom: .07rem;
+  padding: 0 .06rem;
+}
